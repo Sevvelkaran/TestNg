@@ -78,6 +78,7 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
         </plugin>
+        
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
@@ -112,7 +113,18 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.6.1</version>
         </plugin>
+        <plugin>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.3.0</version>
+    <configuration>
+        <includes>
+            <include>com.test_basics.Assert</include>  <!-- Replace with your class name -->
+        </includes>
+    </configuration>
+</plugin>
+
       </plugins>
+      
     </pluginManagement>
   </build>
 </project>
