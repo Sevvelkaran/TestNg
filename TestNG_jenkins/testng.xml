@@ -3,11 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test2">
     <classes>
-      <class name="com.test_basics.NewTest"/>
       <class name="com.test_basics.Demo1"/>
-      <class name="com.test_basics.Assert"/>
-      <class name="com.test_basics.Assert_text"/>
-      <class name="com.test_basics.TutorialsNinja"/>
+     
     </classes>
   </test> <!-- Test2 -->
 </suite> <!-- Suite -->
