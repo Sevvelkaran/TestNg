@@ -19,6 +19,7 @@ public class Demo1 {
   public void f() {
 	  driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).sendKeys("hard drive");
 	  driver.findElement(By.id("nav-search-submit-button")).click();
+	  System.out.println("Executed");
   }
   @BeforeTest
   public void beforeTest() {
