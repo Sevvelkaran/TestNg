@@ -109,9 +109,11 @@
           <artifactId>maven-site-plugin</artifactId>
           <version>3.12.1</version>
           <configuration>
-          <suiteXmlFiles>
-				<suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
+       <configuration>
+                <includes>
+                    <include>com/yourpackage/LoginTest.java</include> 
+                </includes>
+            </configuration>
           </configuration>
         </plugin>
         <plugin>
