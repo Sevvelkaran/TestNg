@@ -7,7 +7,6 @@
         <methods>
           <include name="f1"/>
           <include name="f2"/>
-          <include name="f"/>
         </methods>
       </class> <!-- com.test_basics.Priority -->
     </classes>

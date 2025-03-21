@@ -9,22 +9,21 @@ import org.testng.annotations.Test;
 
 	
 	public class Priority {
-	    WebDriver driver;
+	   // WebDriver driver;
 
 
-	    @Test
+	    @Test(alwaysRun = true, groups = {"Regressiontest"})
 	    public void f() {
-	        driver = new ChromeDriver();  // Initialize WebDriver once
-	        driver.get("https://google.com");	    }
+	        System.out.println("hello");
+	        }
 
-	    @Test(dependsOnMethods = {"f"})
+	    @Test(alwaysRun = true, groups = {"Regressiontest","Smoketest "})
 	    public void f1() {
-	        driver.findElement(By.name("q")).sendKeys("Depends on" + Keys.ENTER);
+	        System.out.println("Welcome");
 	    }
-	    @Test(dependsOnMethods = {"f1"})
+	    @Test(alwaysRun = true, groups = {"Regressiontest","Smoketest", "Latencytest"})
 	    public void f2() {
 	        
-	            driver.quit();
-	        
+System.out.println("Bye");	        
 	    }
 	}
