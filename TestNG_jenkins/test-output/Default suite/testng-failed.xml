@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test_basics.Params">
+      <class name="com.test_basics.OrangeHrm">
         <methods>
-          <include name="sub"/>
-          <include name="sum"/>
+          <include name="parametertest"/>
+          <include name="parametertest"/>
         </methods>
-      </class> <!-- com.test_basics.Params -->
+      </class> <!-- com.test_basics.OrangeHrm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
