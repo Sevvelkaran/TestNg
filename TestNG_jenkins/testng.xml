@@ -3,13 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test2">
   
-  <groups>
-  <run>
-  <include name="Smoketest"></include>
-  </run>
-  </groups>
+ <parameter name="val1" value="2"/>
+  <parameter name="val2" value="2"/>
+
     <classes>
-      <class name="com.test_basics.Priority"/>
+      <class name="com.test_basics.Params"/>
     
      
     </classes>

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test_basics.Priority">
+      <class name="com.test_basics.Params">
         <methods>
-          <include name="f1"/>
-          <include name="f2"/>
+          <include name="sub"/>
+          <include name="sum"/>
         </methods>
-      </class> <!-- com.test_basics.Priority -->
+      </class> <!-- com.test_basics.Params -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
