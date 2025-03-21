@@ -52,6 +52,12 @@
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           <reportsDirectory>test-output</reportsDirectory>
+          <systemPropertyVariables>
+            <property>
+                <name>overwriteReports</name>
+                <value>true</value>
+            </property>
+        </systemPropertyVariables>
         </configuration>
       </plugin>
        <plugin>
