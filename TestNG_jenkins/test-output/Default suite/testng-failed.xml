@@ -5,8 +5,9 @@
     <classes>
       <class name="com.test_basics.OrangeHrm">
         <methods>
-          <include name="parametertest"/>
-          <include name="parametertest"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.test_basics.OrangeHrm -->
     </classes>

@@ -17,10 +17,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterTest;
 
-public class OrangeHrm {
+public class OrangeHrm implements ITestListener{
+	public void onTestFailure(ITestResult result) {
+		System.out.println("The name of the testcase failed is: "+result.getName());
+	}
+	public void onTestSkipped(ITestResult result) {
+		System.out.println("The name of the testcase skipped is: "+result.getName());
+	}
+	public void onTestStart(ITestResult result) {
+		System.out.println(result.getName()+" test case started");
+	}
+	public void onTestSuccess(ITestResult result) {
+		System.out.println("The name of the testcase passed is: "+result.getName());
+	}
 	WebDriver driver;
+
   @Test
   @Parameters({"browser"})
   public void parametertest(String browser) {
@@ -45,6 +60,8 @@ public class OrangeHrm {
 	  driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(val2);
 	  driver.findElement(By.xpath("//button[@type='submit']")).click();
   }
+  
+  
   
   
 }

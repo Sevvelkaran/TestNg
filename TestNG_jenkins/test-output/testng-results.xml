@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-21T15:52:33 IST" name="Suite" finished-at="2025-03-21T15:53:31 IST" duration-ms="57829">
+  <suite started-at="2025-03-21T16:36:54 IST" name="Suite" finished-at="2025-03-21T16:37:28 IST" duration-ms="34591">
     <groups>
     </groups>
-    <test started-at="2025-03-21T15:52:33 IST" name="Test1" finished-at="2025-03-21T15:52:53 IST" duration-ms="19344">
+    <test started-at="2025-03-21T16:36:54 IST" name="Test1" finished-at="2025-03-21T16:37:03 IST" duration-ms="9599">
       <class name="com.test_basics.OrangeHrm">
-        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@5b8dfcc1]" started-at="2025-03-21T15:52:34 IST" name="parametertest" finished-at="2025-03-21T15:52:40 IST" duration-ms="6669" status="PASS">
+        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@42a48628]" started-at="2025-03-21T16:36:54 IST" name="parametertest" finished-at="2025-03-21T16:37:03 IST" duration-ms="8699" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@5b8dfcc1]" started-at="2025-03-21T15:52:40 IST" name="parametertest" finished-at="2025-03-21T15:52:41 IST" duration-ms="1061" status="PASS">
+        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@42a48628]" started-at="2025-03-21T16:37:03 IST" name="parametertest" finished-at="2025-03-21T16:37:03 IST" duration-ms="816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,96 +31,14 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@5b8dfcc1]" started-at="2025-03-21T15:52:41 IST" name="parametertest" finished-at="2025-03-21T15:52:53 IST" duration-ms="11528" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Username']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2268600d2856e02d4ec8812d19f8431, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: /var/folders/my/_xczdv396cj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2268600d2856e02d4ec8812d19f8431]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Username']"}
-  (Session info: chrome=134.0.6998.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2268600d2856e02d4ec8812d19f8431, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.90 (219ee74681fc..., userDataDir: /var/folders/my/_xczdv396cj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60512/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d2268600d2856e02d4ec8812d19f8431
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.test_basics.OrangeHrm.parametertest(OrangeHrm.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->
       </class> <!-- com.test_basics.OrangeHrm -->
     </test> <!-- Test1 -->
-    <test started-at="2025-03-21T15:52:53 IST" name="Test2" finished-at="2025-03-21T15:53:12 IST" duration-ms="18662">
+    <test started-at="2025-03-21T16:37:04 IST" name="Test2" finished-at="2025-03-21T16:37:13 IST" duration-ms="9882">
       <class name="com.test_basics.OrangeHrm">
-        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@dd05255]" started-at="2025-03-21T15:52:53 IST" name="parametertest" finished-at="2025-03-21T15:52:59 IST" duration-ms="6112" status="PASS">
+        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@682b2fa]" started-at="2025-03-21T16:37:04 IST" name="parametertest" finished-at="2025-03-21T16:37:12 IST" duration-ms="8770" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +49,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@dd05255]" started-at="2025-03-21T15:52:59 IST" name="parametertest" finished-at="2025-03-21T15:53:02 IST" duration-ms="2461" status="PASS">
+        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@682b2fa]" started-at="2025-03-21T16:37:12 IST" name="parametertest" finished-at="2025-03-21T16:37:13 IST" duration-ms="1082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,96 +62,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@dd05255]" started-at="2025-03-21T15:53:02 IST" name="parametertest" finished-at="2025-03-21T15:53:12 IST" duration-ms="10070" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Username']"}
-  (Session info: MicrosoftEdge=134.0.3124.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e4c74968e5f78f739fb572561462d283, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60531}, msedge: {msedgedriverVersion: 134.0.3124.77 (87ebc8d81c88..., userDataDir: /var/folders/my/_xczdv396cj...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60531/devtoo..., se:cdpVersion: 134.0.3124.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e4c74968e5f78f739fb572561462d283]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Username']"}
-  (Session info: MicrosoftEdge=134.0.3124.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e4c74968e5f78f739fb572561462d283, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 134.0.3124.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60531}, msedge: {msedgedriverVersion: 134.0.3124.77 (87ebc8d81c88..., userDataDir: /var/folders/my/_xczdv396cj...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60531/devtoo..., se:cdpVersion: 134.0.3124.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e4c74968e5f78f739fb572561462d283
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.test_basics.OrangeHrm.parametertest(OrangeHrm.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->
       </class> <!-- com.test_basics.OrangeHrm -->
     </test> <!-- Test2 -->
-    <test started-at="2025-03-21T15:53:12 IST" name="Test3" finished-at="2025-03-21T15:53:31 IST" duration-ms="19578">
+    <test started-at="2025-03-21T16:37:13 IST" name="Test3" finished-at="2025-03-21T16:37:28 IST" duration-ms="14977">
       <class name="com.test_basics.OrangeHrm">
-        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@2f4948e4]" started-at="2025-03-21T15:53:12 IST" name="parametertest" finished-at="2025-03-21T15:53:21 IST" duration-ms="9203" status="PASS">
+        <test-method signature="parametertest(java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@7dcf94f8]" started-at="2025-03-21T16:37:13 IST" name="parametertest" finished-at="2025-03-21T16:37:25 IST" duration-ms="11587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,7 +80,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@2f4948e4]" started-at="2025-03-21T15:53:21 IST" name="parametertest" finished-at="2025-03-21T15:53:23 IST" duration-ms="2511" status="PASS">
+        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@7dcf94f8]" started-at="2025-03-21T16:37:25 IST" name="parametertest" finished-at="2025-03-21T16:37:28 IST" duration-ms="3373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,84 +93,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parametertest -->
-        <test-method signature="parametertest(java.lang.String,java.lang.String)[pri:0, instance:com.test_basics.OrangeHrm@2f4948e4]" started-at="2025-03-21T15:53:23 IST" name="parametertest" finished-at="2025-03-21T15:53:31 IST" duration-ms="7851" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[BrowsingContext does no longer exist
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [939dcbda-8b4e-4af5-b535-1d29a1b51cd3, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 22554, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 939dcbda-8b4e-4af5-b535-1d29a1b51cd3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: BrowsingContext does no longer exist
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.5'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [939dcbda-8b4e-4af5-b535-1d29a1b51cd3, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 136.0, moz:accessibilityChecks: false, moz:buildID: 20250227124745, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 22554, moz:profile: /var/folders/my/_xczdv396cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 939dcbda-8b4e-4af5-b535-1d29a1b51cd3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.test_basics.OrangeHrm.parametertest(OrangeHrm.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parametertest -->

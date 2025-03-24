@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test1">
-  
- <parameter name="browser" value="chrome"/>
- <parameter name="val1" value="Admin"/>
- <parameter name="val2" value="admin123"/>
   
 
-    <classes>
-      <class name="com.test_basics.OrangeHrm"/>
+  <test thread-count="5" name="Test">
     
-     
+    <classes>
+      <class name="com.test_basics.NewTest"/>
     </classes>
   </test>
-    <test thread-count="5" name="Test2">
-     <parameter name="browser" value="edge"/>
-	 <parameter name="val1" value="Admin"/>
-	 <parameter name="val2" value="admin123"/>
-  
 
-    <classes>
-      <class name="com.test_basics.OrangeHrm"/>
-    
-     
-    </classes>
-      </test>
-<test thread-count="5" name="Test3">
-     <parameter name="browser" value="firefox"/>
-	 <parameter name="val1" value="Admin"/>
-	 <parameter name="val2" value="admin123"/>
-  
-
-    <classes>
-      <class name="com.test_basics.OrangeHrm"/>
-    
-     
-    </classes>
-      </test>
- <!-- Test2 -->
-</suite> <!-- Suite -->
+</suite>
