@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T09:59:04 IST" name="Suite" finished-at="2025-03-24T09:59:05 IST" duration-ms="268">
+  <suite started-at="2025-03-24T11:25:44 IST" name="Default suite" finished-at="2025-03-24T11:25:55 IST" duration-ms="10861">
     <groups>
     </groups>
-    <test started-at="2025-03-24T09:59:04 IST" name="Test" finished-at="2025-03-24T09:59:05 IST" duration-ms="268">
-      <class name="com.test_basics.NewTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:04 IST" name="beforeSuite" finished-at="2025-03-24T09:59:04 IST" duration-ms="48" status="PASS">
+    <test started-at="2025-03-24T11:25:44 IST" name="Default test" finished-at="2025-03-24T11:25:55 IST" duration-ms="10861">
+      <class name="POM_Basics.PoM_Basics">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM_Basics.PoM_Basics@41d477ed]" started-at="2025-03-24T11:25:44 IST" name="setup" finished-at="2025-03-24T11:25:50 IST" duration-ms="5743" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:04 IST" name="beforeTest" finished-at="2025-03-24T09:59:04 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:POM_Basics.PoM_Basics@41d477ed]" started-at="2025-03-24T11:25:50 IST" name="initPageObjects" finished-at="2025-03-24T11:25:50 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:04 IST" name="beforeClass" finished-at="2025-03-24T09:59:04 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="googleSearchTest()[pri:0, instance:POM_Basics.PoM_Basics@41d477ed]" started-at="2025-03-24T11:25:50 IST" name="googleSearchTest" finished-at="2025-03-24T11:25:55 IST" duration-ms="5015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:04 IST" name="beforeMethod" finished-at="2025-03-24T09:59:04 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Login()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:04 IST" name="Login" finished-at="2025-03-24T09:59:05 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="afterMethod" finished-at="2025-03-24T09:59:05 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="beforeMethod" finished-at="2025-03-24T09:59:05 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Logout()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="Logout" finished-at="2025-03-24T09:59:05 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="afterMethod" finished-at="2025-03-24T09:59:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="afterClass" finished-at="2025-03-24T09:59:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="afterTest" finished-at="2025-03-24T09:59:05 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test_basics.NewTest@6771beb3]" started-at="2025-03-24T09:59:05 IST" name="afterSuite" finished-at="2025-03-24T09:59:05 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.test_basics.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- googleSearchTest -->
+      </class> <!-- POM_Basics.PoM_Basics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

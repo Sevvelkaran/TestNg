@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test_basics.OrangeHrm">
+      <class name="POM_Basics.PoM_Basics">
         <methods>
-          <include name="loginTest"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="google"/>
         </methods>
-      </class> <!-- com.test_basics.OrangeHrm -->
+      </class> <!-- POM_Basics.PoM_Basics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
