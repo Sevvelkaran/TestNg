@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T16:02:17 IST" name="Suite" finished-at="2025-03-24T16:02:37 IST" duration-ms="20461">
+  <suite started-at="2025-03-24T16:28:48 IST" name="Suite" finished-at="2025-03-24T16:29:08 IST" duration-ms="20529">
     <groups>
     </groups>
-    <test started-at="2025-03-24T16:02:17 IST" name="Test" finished-at="2025-03-24T16:02:37 IST" duration-ms="20461">
+    <test started-at="2025-03-24T16:28:48 IST" name="Test" finished-at="2025-03-24T16:29:08 IST" duration-ms="20529">
       <class name="com.tests.DashBoardTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.DashBoardTest@2d3379b4]" started-at="2025-03-24T16:02:26 IST" name="setup" finished-at="2025-03-24T16:02:34 IST" duration-ms="7925" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.DashBoardTest@3590fc5b]" started-at="2025-03-24T16:29:00 IST" name="setup" finished-at="2025-03-24T16:29:05 IST" duration-ms="5199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dashBoardTest()[pri:0, instance:com.tests.DashBoardTest@2d3379b4]" started-at="2025-03-24T16:02:34 IST" name="dashBoardTest" finished-at="2025-03-24T16:02:37 IST" duration-ms="2999" status="PASS">
+        <test-method signature="dashBoardTest()[pri:0, instance:com.tests.DashBoardTest@3590fc5b]" started-at="2025-03-24T16:29:05 IST" name="dashBoardTest" finished-at="2025-03-24T16:29:08 IST" duration-ms="3476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.DashBoardTest@2d3379b4]" started-at="2025-03-24T16:02:37 IST" name="close" finished-at="2025-03-24T16:02:37 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.DashBoardTest@3590fc5b]" started-at="2025-03-24T16:29:08 IST" name="close" finished-at="2025-03-24T16:29:08 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.tests.DashBoardTest -->
       <class name="com.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@130d63be]" started-at="2025-03-24T16:02:17 IST" name="setup" finished-at="2025-03-24T16:02:25 IST" duration-ms="8262" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.LoginTest@72967906]" started-at="2025-03-24T16:28:48 IST" name="setup" finished-at="2025-03-24T16:28:59 IST" duration-ms="10600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.tests.LoginTest@130d63be]" started-at="2025-03-24T16:02:25 IST" name="loginTest" finished-at="2025-03-24T16:02:26 IST" duration-ms="895" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.tests.LoginTest@72967906]" started-at="2025-03-24T16:28:59 IST" name="loginTest" finished-at="2025-03-24T16:28:59 IST" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.LoginTest@130d63be]" started-at="2025-03-24T16:02:26 IST" name="close" finished-at="2025-03-24T16:02:26 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.tests.LoginTest@72967906]" started-at="2025-03-24T16:28:59 IST" name="close" finished-at="2025-03-24T16:29:00 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

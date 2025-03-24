@@ -3,26 +3,23 @@ package com.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-    WebDriver driver;
+public class LoginPage extends BasePage {
 
     @FindBy(name = "username")
-    WebElement username;
+    private WebElement username;
 
     @FindBy(name = "password")
-    WebElement password;
+    private WebElement password;
 
     @FindBy(xpath = "//h5[text()='Login']")
-    WebElement titleText;
+    private WebElement titleText;
 
     @FindBy(xpath = "//button[text()=' Login ']")
-    WebElement login;
+    private WebElement login;
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
 
     public void setUserName(String strUsername) {
@@ -42,8 +39,8 @@ public class LoginPage {
     }
 
     public void login(String strUserName, String strPassword) {
-        this.setUserName(strUserName);
-        this.setPassword(strPassword);
-        this.clickLogin();
+        setUserName(strUserName);
+        setPassword(strPassword);
+        clickLogin();
     }
 }
