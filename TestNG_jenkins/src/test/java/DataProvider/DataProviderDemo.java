@@ -47,10 +47,10 @@ public class DataProviderDemo {
   public void setup() {
 	  System.out.println("Start the test");
 	  WebDriver driver = getDriver();
-	  ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless");
+//	  ChromeOptions option = new ChromeOptions();
+//		option.addArguments("--headless");
 
-		driver = new ChromeDriver(option);
+		driver = new ChromeDriver();
 		driver.get("https://www.bing.com/");
 		driver.manage().window().maximize();
 		setDriver(driver);
