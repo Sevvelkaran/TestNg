@@ -6,8 +6,8 @@
       <class name="DataProvider.DataProviderDemo">
         <methods>
           <include name="setup"/>
-          <include name="search"/>
-          <include name="Teardown"/>
+          <include name="afterMethod"/>
+          <include name="search" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- DataProvider.DataProviderDemo -->
     </classes>
