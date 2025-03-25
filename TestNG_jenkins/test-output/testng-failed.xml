@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="methods" name="Failed suite [ParallelTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="methods" name="Parallel Search Test(failed)">
+<suite thread-count="4" parallel="methods" name="Failed suite [ParallelTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="Parallel Search Test(failed)">
     <classes>
-      <class name="DataProvider.DataProviderDemo">
+      <class name="DataProvider.DataProviderExcel">
         <methods>
           <include name="setup"/>
-          <include name="afterMethod"/>
+          <include name="quit"/>
           <include name="search" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- DataProvider.DataProviderDemo -->
+      </class> <!-- DataProvider.DataProviderExcel -->
     </classes>
   </test> <!-- Parallel Search Test(failed) -->
 </suite> <!-- Failed suite [ParallelTestSuite] -->
