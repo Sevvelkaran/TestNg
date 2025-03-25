@@ -2,22 +2,50 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T22:58:37 IST" name="TestSuite" finished-at="2025-03-24T22:58:38 IST" duration-ms="233">
+  <suite started-at="2025-03-25T11:49:39 IST" name="Default suite" finished-at="2025-03-25T11:49:59 IST" duration-ms="19606">
     <groups>
     </groups>
-    <test started-at="2025-03-24T22:58:37 IST" name="Run All Tests" finished-at="2025-03-24T22:58:38 IST" duration-ms="233">
-      <class name="TEST.JUnitTestRunner">
-        <test-method signature="runJUnitTests()[pri:0, instance:TEST.JUnitTestRunner@1a482e36]" started-at="2025-03-24T22:58:37 IST" name="runJUnitTests" finished-at="2025-03-24T22:58:38 IST" duration-ms="131" status="PASS">
+    <test started-at="2025-03-25T11:49:39 IST" name="Default test" finished-at="2025-03-25T11:49:59 IST" duration-ms="19606">
+      <class name="DataProvider.DataProviderDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:39 IST" name="setup" finished-at="2025-03-25T11:49:49 IST" duration-ms="9717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runJUnitTests -->
-      </class> <!-- TEST.JUnitTestRunner -->
-      <class name="TEST.TestNGTest">
-        <test-method signature="testTestNGExample()[pri:0, instance:TEST.TestNGTest@49139829]" started-at="2025-03-24T22:58:37 IST" name="testTestNGExample" finished-at="2025-03-24T22:58:37 IST" duration-ms="19" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:49 IST" name="search" data-provider="testData" finished-at="2025-03-25T11:49:50 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTestNGExample -->
-      </class> <!-- TEST.TestNGTest -->
-    </test> <!-- Run All Tests -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:50 IST" name="Teardown" finished-at="2025-03-25T11:49:51 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:51 IST" name="setup" finished-at="2025-03-25T11:49:57 IST" duration-ms="5693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:57 IST" name="search" data-provider="testData" finished-at="2025-03-25T11:49:57 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:DataProvider.DataProviderDemo@459e9125]" started-at="2025-03-25T11:49:57 IST" name="Teardown" finished-at="2025-03-25T11:49:59 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- DataProvider.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
