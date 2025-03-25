@@ -10,12 +10,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProviderDemo {
+public class DataProviderDemo  extends DPDemo{
 	WebDriver driver;
-	@DataProvider(name = "testData")
-	public Object[][] dataProvFunc(){
-		return new Object[][] {{"Selenium"}, {"TestNG"}};
-	}
+//	@DataProvider(name = "testData")
+//	public Object[][] dataProvFunc(){
+//		return new Object[][] {{"Selenium"}, {"TestNG"}};
+	//}
 	@BeforeMethod
 	public void setup() {
 		System.out.println("Start the test");
@@ -30,6 +30,8 @@ public class DataProviderDemo {
 	  System.out.println("KeyWord Entred  : "+keyWord);
 	  txtbox.sendKeys(Keys.ENTER);
 	  System.out.println("Search result is Displayed");
+	  System.out.println("--------------------------");
+
   }
   @AfterMethod
   public void Teardown() {
