@@ -19,7 +19,7 @@ public class LoginPage extends BasePage {
     private WebElement login;
 
     public LoginPage(WebDriver driver) {
-        super(driver);
+        super();
     }
 
     public void setUserName(String strUsername) {

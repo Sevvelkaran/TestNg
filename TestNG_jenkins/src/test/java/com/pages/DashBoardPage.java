@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DashBoardPage extends BasePage{
     public DashBoardPage(WebDriver driver) {
-		super(driver);
+		super();
 		
 	}
 

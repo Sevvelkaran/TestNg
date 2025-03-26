@@ -28,7 +28,7 @@ public class DPExcel {
 
             int numRows = sheet.getPhysicalNumberOfRows();
             int numCols = sheet.getRow(0).getLastCellNum();
-            data = new String[numRows - 1][numCols];
+            data = new String[numRows-1][numCols];
 
             for (int i = 1; i < numRows; i++) {
                 Row row = sheet.getRow(i);

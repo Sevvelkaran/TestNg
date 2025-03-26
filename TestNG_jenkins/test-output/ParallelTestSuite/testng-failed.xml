@@ -5,9 +5,9 @@
     <classes>
       <class name="DataProvider.DataProviderExcel">
         <methods>
+          <include name="burnDown"/>
           <include name="setup"/>
-          <include name="quit"/>
-          <include name="search" invocation-numbers="0 1 2"/>
+          <include name="search" invocation-numbers="3"/>
         </methods>
       </class> <!-- DataProvider.DataProviderExcel -->
     </classes>
