@@ -1,126 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T16:44:42 IST" name="ParallelTestSuite" finished-at="2025-03-25T16:45:13 IST" duration-ms="31395">
+  <suite started-at="2025-03-27T10:59:58 IST" name="Default suite" finished-at="2025-03-27T11:00:24 IST" duration-ms="25577">
     <groups>
     </groups>
-    <test started-at="2025-03-25T16:44:42 IST" name="Parallel Search Test" finished-at="2025-03-25T16:45:13 IST" duration-ms="31395">
-      <class name="DataProvider.DataProviderExcel">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:44:43 IST" name="setup" finished-at="2025-03-25T16:45:00 IST" duration-ms="16645" status="PASS">
+    <test started-at="2025-03-27T10:59:58 IST" name="Default test" finished-at="2025-03-27T11:00:24 IST" duration-ms="25577">
+      <class name="POM_Basics.PoM_Basics">
+        <test-method is-config="true" signature="setup()[pri:0, instance:POM_Basics.PoM_Basics@61d6015a]" started-at="2025-03-27T10:59:58 IST" name="setup" finished-at="2025-03-27T11:00:16 IST" duration-ms="18088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:44:43 IST" name="setup" finished-at="2025-03-25T16:44:59 IST" duration-ms="15359" status="PASS">
+        <test-method is-config="true" signature="Pom()[pri:0, instance:POM_Basics.PoM_Basics@61d6015a]" started-at="2025-03-27T11:00:16 IST" name="Pom" finished-at="2025-03-27T11:00:16 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:44:43 IST" name="setup" finished-at="2025-03-25T16:45:05 IST" duration-ms="21961" status="PASS">
+        </test-method> <!-- Pom -->
+        <test-method signature="googleSearchTest()[pri:0, instance:POM_Basics.PoM_Basics@61d6015a]" started-at="2025-03-27T11:00:16 IST" name="googleSearchTest" finished-at="2025-03-27T11:00:24 IST" duration-ms="7353" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:44:43 IST" name="setup" finished-at="2025-03-25T16:45:09 IST" duration-ms="25982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:44:59 IST" name="search" data-provider="excelData" finished-at="2025-03-25T16:45:08 IST" duration-ms="8920" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TestNg]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Junit]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:00 IST" name="search" data-provider="excelData" finished-at="2025-03-25T16:45:09 IST" duration-ms="8689" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Eclipse]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jenkins]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:05 IST" name="search" data-provider="excelData" finished-at="2025-03-25T16:45:11 IST" duration-ms="5488" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[java]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:08 IST" name="burnDown" finished-at="2025-03-25T16:45:12 IST" duration-ms="4280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- burnDown -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:09 IST" name="burnDown" finished-at="2025-03-25T16:45:12 IST" duration-ms="3111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- burnDown -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:09 IST" name="search" data-provider="excelData" finished-at="2025-03-25T16:45:10 IST" duration-ms="632" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-at DataProvider.DataProviderExcel.search(DataProviderExcel.java:28)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:10 IST" name="burnDown" finished-at="2025-03-25T16:45:13 IST" duration-ms="3106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- burnDown -->
-        <test-method is-config="true" signature="burnDown()[pri:0, instance:DataProvider.DataProviderExcel@fd07cbb]" started-at="2025-03-25T16:45:11 IST" name="burnDown" finished-at="2025-03-25T16:45:13 IST" duration-ms="2166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- burnDown -->
-      </class> <!-- DataProvider.DataProviderExcel -->
-    </test> <!-- Parallel Search Test -->
-  </suite> <!-- ParallelTestSuite -->
+        </test-method> <!-- googleSearchTest -->
+      </class> <!-- POM_Basics.PoM_Basics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
